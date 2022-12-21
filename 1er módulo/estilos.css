@@ -1,0 +1,40 @@
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+html {
+background-color: white;
+}
+
+#encabezado{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+    margin-top:12px;	
+    margin-bottom:18px;	
+    }
+    
+    p{
+    padding: 10px;
+    }
+header {
+    background-color: white;
+}
+
+ul {
+    list-style-type: '👉';
+}
+
+ol {
+    list-style-type: '👉';
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}

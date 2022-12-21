@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ffedecabral</title>
+</head>
+<body>
+    <!-- <h1> Primer título</h1>
+    <h2> Segundo título</h2>
+    <h3> Tercer título</h3>
+    <h4> Cuarto título</h4>
+    <h5> Quinto título</h5>
+    <h6> Sexto título</h6> -->
+
+    <form action="https://formspree.io/f/xdovnkdw" method="post">
+    <h1>¡Cuentanos sobre tí!</h1>
+<p>Los campos obligatorios van seguidos de <strong> <abbr title = "required"> * </abbr> </strong>.</p>
+<p>
+    <label for="nom"> <b> Nombre </b></label> 
+    <input type="text" name="nombre" id="nom" placeholder="Por ejemplo, Juan.">
+    <strong> <abbr title = "required"> * </abbr> </strong>. <!--Type="text" ya viene por defecto, se puede ignorar.
+    Para asociar el label al input, tenemos que darle el mismo nombre a los atirbuto for e ID.
+    El atributo placeholder se define como un consejo o indicación corta que puede consistir 
+    en una solo palabra o en una pequeña frase. -->
+</p>
+<p>
+    <label for="apellido"><b> Apellido</b></label>
+    <input type="text" name="apellido" id="apellido" placeholder="Pérez.">
+    <strong> <abbr title = "required"> * </abbr> </strong>.
+</p>
+<p>
+    <label for="Date"><b> Fecha de nacimiento </b> </label>
+    <input type="date" id="Date" name="Fecha de nacimiento"
+       value="2018-07-22"
+       min="2000-01-01" max="2021-12-31">
+    <strong> <abbr title = "required"> * </abbr> </strong>.
+</p>
+<p>
+    <label for="pass"><b> Contraseña </b></label>
+    <input type="password" name="pass">
+    <strong> <abbr title = "required"> * </abbr> </strong>.
+</p>
+<p>
+    <label for="Género"><b> Género</b></label>
+    <ul>
+        <li>
+            <input type="radio" name="Género" value="Hombre.">
+            <label> Hombre </label>
+        </li>
+        <li>
+            <input type="radio" name="Género" value="Mujer.">
+            <label>Mujer </label>
+        </li>
+        <li>
+            <input type="Radio" name="Género" value="No binario.">
+            <label> No binario </label> <!-- Se pone el label después del input, porque antes no le pone nombre visible a ese atributo-->
+        </li>
+        <strong> <abbr title = "required"> * </abbr> </strong>.
+    </ul>
+    <p>
+     <label for="Hobbie"><b> ¿Qué te gusta hacer?</b> </label>
+     <ul>
+        <li>
+            <input type="checkbox" name="Hobbie" value="Cantar.">
+            <label> Cantar </label>
+        </li>
+        <li>
+            <input type="checkbox" name="Hobbie" value="Entrenar.">
+            <label> Entrenar. </label>
+        </li>
+        <li>
+            <input type="checkbox" name="Hobbie" value="Dibujar.">
+            <label> Dibujar. </label>
+        </li>
+        <li>
+            <input type="checkbox" name="Hobbie" value="Otros.">
+            <label> Otros. </label>
+        </li>
+        <strong> <abbr title = "required"> * </abbr> </strong>.
+     </ul>
+
+     <p>
+       <label for="Otros."> En caso de que haya seleccionado "Otros", indiquelo aquí</label>
+       <input type="text" name="Hobbie" id="Otros.">
+    </p>
+</p>
+<p><B>Recuerde que todas las casillas son obligatorias.</B></p>
+
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar todo">
+</form>
+</body>
+</html>
