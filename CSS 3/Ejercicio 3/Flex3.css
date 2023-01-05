@@ -1,0 +1,36 @@
+.rectangulo {
+    height: 300x;
+    width: 1350px;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.cuadrado1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    align-content: center;    
+}
+
+.cuadrado2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.cuadrado3 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin: 48%;
+}
